@@ -7,6 +7,6 @@
 <title>Welcome Gaurav</title>
 </head>
 <body>
- <a href="/hello.jsp"></a>
+ <a href="hello.html">click</a>|  
 </body>
 </html>
