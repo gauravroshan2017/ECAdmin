@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 
 	@Controller
-	/*@RequestMapping("/hello")*/
+	@RequestMapping("/hello")
 	public class Test {
 		   @RequestMapping(method = RequestMethod.GET)
 		   public String printHello(ModelMap model) 
 		   {
 			   System.out.println("control comes in controller");
 		      model.addAttribute("message", "Hello Spring MVC Framework!");
-		      return "hello";
+		      return "Welcome";
 		   }
 	}
